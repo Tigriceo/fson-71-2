@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  color: #000000;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: yellow;
+}
+
+.hero__block {
+  display: flex;
+}
+.hero__text {
+  flex: 0 0 100%;
+  background-color: aqua;
+}
+.hero__text-inner {
+  max-width: 50%;
+}
+.hero-image-wrap {
+  flex: 0 0 50%;
+  background-color: brown;
+}
+.hero-image {
+  width: 100%;
+  transform: translateX(-100%);
+  height: auto;
+}
+
+.gifts-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.1875;
+  margin-bottom: 23px;
+}
+.gifts-desc {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.3594;
+}
+.gifts-list {
+  list-style: none;
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
